@@ -55,7 +55,7 @@ $ ls -lh
         - scAlign：tensorflowパッケージを使ってtensorflowをインストールする必要がある。
         - MoonlightR：原因不明
         - Rariant：原因不明
-- 依存Rパッケージの不足
+- 依存Rパッケージの不足 (20)
     - BANOVA：runjagsが必要
     - BayesPostEst：runjagsが必要
     - IsotopeR：runjagsが必要
