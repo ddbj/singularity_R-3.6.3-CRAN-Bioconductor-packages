@@ -1,9 +1,10 @@
 # ubuntu20.04 LTS + R-3.6.3 + CRAN packages + Bioconductor packages の singularityイメージレシピファイル
 * Singularity.0 : ubuntu-20.04 LTSにaptでRをインストール後、Rを削除
 * Singularity.1 : Singularity.0で作成したイメージにR-3.6.3をソースからインストール
-* Singularity.2 : Singularity.1で作成したイメージにCRANパッケージのインストールに必要なライブラリをインストール
+* Singularity.2 : Singularity.1で作成したイメージにCRAN, Bioconductorパッケージのインストールに必要なライブラリをインストール
 * Singularity.3 : Singularity.2で作成したイメージにCRANパッケージをインストール
-* Singularity.update : Singularity.3で作成したイメージ内のCRANパッケージを更新・新規追加パッケージをインストール
+* Singularity.4 : Singularity.3で作成したイメージにCRANパッケージの残りとBioconductorパッケージをインストール
+* Singularity.update : Singularity.4で作成したイメージ内のRパッケージを更新・新規追加パッケージをインストール
 
 ## イメージのビルド
 ```
