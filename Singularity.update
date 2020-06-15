@@ -1,5 +1,5 @@
 BootStrap: localimage
-From: /home/okuda/singularity/ubuntu-20.04-R-3.6.3/ubuntu-20.04-R-3.6.3-CRAN-Bioc-packages.simg
+From: ./ubuntu-20.04-R-3.6.3-CRAN-Bioconductor-packages.simg
 
 
 %files
