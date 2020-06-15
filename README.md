@@ -33,23 +33,23 @@ $ ls -lh
         - charm : Bioconductor 3.10に含まれていないため
 - 依存ライブラリの不足
     - CRAN (11)
-        - BALD：JAGS (http://mcmc-jags.sourceforge.net)が必要。
-        - BRugs：OpenBUGS (http://www.openbugs.net/w/FrontPage)が必要。
+        - BALD：[JAGS](http://mcmc-jags.sourceforge.net)が必要。
+        - BRugs：[OpenBUGS](http://www.openbugs.net/w/FrontPage)が必要。
         - OpenCL：NVIDIA CUDA等でのOpenCLランタイムのインストールが必要
         - ROracle：Oracle Instant Client or Oracle Database Clientが必要。
         - Rcplex：IBM ILOG CPLEXが必要
-        - Rsymphony：SYMPHONY (https://projects.coin-or.org/SYMPHONY)が必要。
+        - Rsymphony：[SYMPHONY](https://projects.coin-or.org/SYMPHONY)が必要。
         - cplexAPI：IBM ILOG CPLEXが必要
         - kmcudaR：NVIDIA CUDAが必要。
         - qtbase：Qt 4.xが必要。ubuntu 20.04のaptリポジトリに入っていない。
-        - rLindo：Lindo API（https://www.lindo.com/）が必要。LINDOAPI_HOMEを設定せよ。
-        - runjags：JAGS (http://mcmc-jags.sourceforge.net)が必要。
+        - rLindo：[Lindo API](https://www.lindo.com/)が必要。LINDOAPI_HOMEを設定せよ。
+        - runjags：[JAGS](http://mcmc-jags.sourceforge.net)が必要。
     - Bioconductor（11）
-        - ChemineOB：Open Babel (http://openbabel.org/wiki/Main_Page) が必要。
+        - ChemineOB：[Open Babel](http://openbabel.org/wiki/Main_Page) が必要。
         - SharedObject：原因不明
         - mlm4omics：原因不明
         - rsbml：libsbmlが必要（libsbml5-devをインストールしたが違うようだ）。
-        - xps：root_v5.34.36（https://root.cern.ch/releases）が必要。
+        - xps：[root_v5.34.36](https://root.cern.ch/releases)が必要。
         - Rcwl：cwltoolをインストールしたが、cwlversionの判定に失敗している。
         - permGPU：NVIDIA CUDAが必要。
         - MSGFplus：原因不明
