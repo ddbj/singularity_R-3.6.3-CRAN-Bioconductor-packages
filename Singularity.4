@@ -18,8 +18,6 @@ From: ./ubuntu-20.04-R-3.6.3-CRAN-packages.simg
 
 %post
     cd /usr/local/src
-    apt-get -y install libsasl2-dev libtesseract-dev libleptonica-dev tesseract-ocr-eng libgl1-mesa-dev libglu1-mesa-dev
-    apt-get -y install devscripts libgtkmm-2.4-dev libsbml5-dev cwltool python3-sklearn python3-pandas python3-numpy python3-h5py
     echo 'require(devtools)' > bioc_install.R
     echo 'install_version("mnormt", version = "1.5-7", repos = "https://cran.ism.ac.jp")' >> bioc_install.R
     echo 'install_version("d3heatmap", version = "0.6.1.2", repos = "https://cran.ism.ac.jp")' >> bioc_install.R
